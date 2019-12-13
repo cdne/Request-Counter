@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Request Counter</title>
+</head>
+<body>
+    <form action="/request-counter" method="post">
+        <button type="submit" name="submit">Submit Form</button>
+    </form>
+    <a href="{{url_for('route_index')}}">Home</a>
+    <a href="{{url_for('route_statistics')}}">Statistics</a>
+</body>
+</html>
