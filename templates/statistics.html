@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Statistics</title>
+</head>
+<body>
+    <h1>Statistics</h1>
+    <a href="{{url_for('route_index')}}">Home</a>
+    <table class="table" name="table">
+        <tr>
+            <th>Method</th>
+            <th>Count</th>
+        </tr>
+        <tr>
+            <td>Get</td>
+            <td>{{get_counter}}</td>
+        </tr>
+        <tr>
+            <td>Post</td>
+            <td>{{post_counter}}</td>
+        </tr>
+        <tr>
+            <td>Put</td>
+            <td>{{put_counter}}</td>
+        </tr>
+                <tr>
+            <td>Delete</td>
+            <td>{{delete_counter}}</td>
+        </tr>
+
+    </table>
+</body>
+</html>
